@@ -1,1 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* font url added */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+*{
+    margin: 0;
+}
+
+/* common style */
+.common-button {
+    background-color: white;
+    border: 1px solid rgba(13, 19, 33, 0.8);
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    padding: 12px 22px;
+}
+
+.common-button:hover {
+    background-color: rgb(223, 220, 220);
+    transition: 1s;
+}
+.common-text-style{
+    color: rgb(33, 41, 60);
+    font-size: 20px;
+    line-height: 25px;
+}
+.common-bg-color{
+    background-color: #fff;
+}
+.common-heading{
+        color: rgb(13, 19, 33);
+        font-size: 30px;
+        font-weight: bolder;
+        line-height: 35px;
+        margin: 20px 0;
+}
+
+/* styling nav section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px 20px 150px;
+}
+
+nav h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+/* styling banner section */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/assets/Hero-bg.png);
+    background-size: cover;
+    padding:25px 220px 45px 220px ;
+    text-align: center;
+
+}
+.banner h1{
+    color: rgb(13, 19, 33);
+    font-size: 45px;
+    line-height: 65px;
+}
+.banner button{
+    background-color: rgb(13, 19, 33);
+    border-radius: 8px;
+    color: white;
+    padding: 20px 25px;
+    font-size: 20px;
+    border: none;
+    margin: 20px 0px;
+}
+.banner button:hover{
+    background-color: rgb(60, 65, 77);
+    transition: 1s;
+}
+/* styling main section */
+.about-section{
+    text-align: center;
+    padding: 20px;
+    background: rgba(7, 9, 15, 0.02);
+    margin: 60px 150px;
+}
+.about-section p{
+    margin:50px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 45px;
+    padding: 45px;
+    
+}
+.about p{
+    margin:20px 0px;
+}
+
+/* inspration section start */
+.inspiration-section{
+    text-align: center;
+    margin: 10px 148px;
+}
+.inspiration-section iframe{
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33,0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
